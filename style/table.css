@@ -1,0 +1,25 @@
+#data_table {
+    max-width: 1430px;
+    min-width: 1430px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+#data_table td {
+    height: 40px;
+}
+#table_categorys {
+    font-size: 17px;
+    font-weight: bold;
+}
+#data_table img {
+    width: 30px;
+    cursor: pointer;
+}
+.on_img {
+    background: unset;
+    border: none;
+    outline: none !important;
+}

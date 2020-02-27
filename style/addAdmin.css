@@ -1,0 +1,50 @@
+#add {
+    padding: 20px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    border: 1px solid #9ca1a7;
+    background-image: url('../img/admin/code.jpg');
+}
+
+#add input[type='text'], #add input[type='password'] {
+    width: 500px !important;
+    border: 1px solid #9ca1a7;
+    margin: 10px 0;
+}
+
+#add button {
+    margin: 0 0 0 auto;
+    width: 100px;
+    background: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 5px 0;
+    border-radius: 5px;
+    opacity: .8;
+}
+
+#closeAdd {
+    cursor: pointer;
+    background-image: url('../img/admin/close.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 3px;
+    opacity: .6;
+}
+
+#add button:hover, #add input[type="text"]:hover, #closeAdd:hover, #add input[type="password"]:hover {
+    opacity: 1;
+}
+
+#add button:focus, #add input[type="text"]:focus, #add input[type="password"]:focus {
+    opacity: 1;
+}

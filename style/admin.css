@@ -1,0 +1,22 @@
+#work {
+    padding-top: 10px;
+    padding-left: 160px;
+}
+#btnAdd {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    opacity: .5;
+    border-radius: 3px;
+    position: fixed;
+    right: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    top: 11px;
+}
+#btnAdd:hover {
+    opacity: 1;
+}
+#on_table {
+    padding-top: 55px;
+}

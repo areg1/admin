@@ -1,0 +1,84 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	background-color: white;
+}
+
+* {
+	font-family: Verdana;
+}
+
+#menu {
+	padding: 30px;
+	position: fixed;
+	height: 100%;
+	background-color: rgb(0, 0, 0);
+}
+
+#menu span {
+	color: white;
+	display: block;
+	font-family: Verdana;
+	cursor: default;
+}
+
+#menu>span {
+	font-size: 20px;
+	padding-bottom: 35px;
+	cursor: pointer;
+}
+
+#menu>span>span {
+	font-size: 15px;
+	margin-bottom: 10px;
+	display: none;
+	transition: 3s;
+	cursor: pointer;
+}
+
+#menu a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#menu a:hover {
+	opacity: .4;
+}
+
+#menu img {
+	width: 50px;
+	display: block;
+	padding-bottom: 5px;
+}
+
+.child1_menu {
+	padding-top: 10px;
+}
+
+#logOut {
+	background: rgb(0,0,0);
+	border: none;
+	outline: none;
+	padding: 0 20px;
+	color: white;
+	border-radius: 4px;
+	line-height: 34px;
+	cursor: pointer;
+	font-size: 17px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	opacity: .7;
+}
+
+#logOut img {
+	width: 50px;
+}
+
+#logOut:hover {
+	opacity: 1;
+}
